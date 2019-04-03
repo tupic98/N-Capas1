@@ -1,0 +1,51 @@
+
+.parallax-cover {
+    width: 100%;;
+    height: calc(100vh - 155px);
+    background-image: url("./../img/cover.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cover-text{
+    font-family: 'Giorgia', serif;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    width: 100%;
+    height: calc(100vh - 100px);
+    line-height: calc(100vh - 100px);
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    height: 100%;
+    padding: 5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row > div {
+    flex: 50%;
+}
+
+.row>.image{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+.image>img{
+    display: inline-block;
+    vertical-align: middle;
+    height: 200px;
+    margin: auto;   
+}
+.text-row>h2{
+    text-align: center;
+    padding-bottom: 1em;
+}
+.text-row>p{
+    font-size: 24px;
+    text-align: justify;
+}
